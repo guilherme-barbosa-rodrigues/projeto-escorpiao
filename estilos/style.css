@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --cor01: #89A968;
-    --cor02: #80A258;
-    --cor03: #667D47;
-    --cor04: #48582B;
-    --cor05: #2B2C1A;
-    --corH: #242516;
+    --cor01: #556B2F ;
+    --cor02: #556B2F;
+    --cor03: #DAA520;
+    --cor04: #61321c;
+    --cor05: #61310e;
+    --corH: #8B4513;
 }
 * {
     margin: 0px;
@@ -18,7 +18,7 @@
 body, html {
     height: 100vh;
     width: 100%;
-    background-image: url(../imagens/pexels-mahima-1250260.jpg);
+    background-image: url(../imagens/folhas-de-plantas-marrons-na-natureza-na-temporada-de-outono-cores-de-outono_73485-4745.jpg);
     background-size: cover;
     background-position: left left;
     background-attachment: fixed;
