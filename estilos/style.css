@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --cor01: #89A968;
+    --cor02: #80A258;
+    --cor03: #667D47;
+    --cor04: #48582B;
+    --cor05: #2B2C1A;
+    --corH: #242516;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body, html {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/pexels-mahima-1250260.jpg);
+    background-size: cover;
+    background-position: left left;
+    background-attachment: fixed;
+}
+header {
+    background-color: var(--cor04);
+}
+header > h1 {
+    color: white;
+    padding: 15px 10px 10px 10px;
+    margin: 0px 10px 10px 10px ;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.795);
+}
+header > nav {
+    background-color: var(--cor05);
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+}
+i#burger {
+    background-color: var(--corH);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    color: var(--cor01);
+    display: block;
+    cursor: pointer;
+}
+i#burger:hover {
+    background-color: var(--cor02);
+    color: var(--cor05);
+    border-radius: 5px;
+}
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: var(--cor01);
+    padding: 10px;
+    text-shadow: .5px .5px 2px rgba(0, 0, 0, 0.281);
+    display: block;
+    text-align: center;
+    border: 1px solid var(--cor04);
+    border-radius: 5px;
+}
+header > nav ul> li > a:hover {
+    background-color: var(--cor02);
+    color: var(--cor05);
+    border-radius: 5px;
+}
+main {
+    background-color: white;
+    margin: 25px 10px 25px 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#conteudo > h1 {
+    text-align: center;
+    color: var(--cor05);
+    text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.199);
+}
+p {
+    margin-top: 15px;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+#foto_mapa > h2 {
+    text-align: center;
+    margin: 30px 10px 30px 10px;
+    color: var(--cor05);
+    text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.199);
+}
+#foto {
+    width: 100%;
+    height: 250px;
+}
+#mapa {
+    width: 100%;
+    height: 350px;
+}
